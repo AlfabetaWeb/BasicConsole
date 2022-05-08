@@ -1,0 +1,233 @@
+
+body {                 /*********************NO TOCAR********************/
+
+    height: 100vh; /*Set webpage maximum height*/
+
+    margin: 0;    /*Set start reading 0,0*/
+    padding: 0;
+
+    background-color: darkgreen;  /*Set background color*/
+
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+}
+
+#consoleBorder{   /*set console outline*/     /*********************NO TOCAR********************/
+    height: 30em;
+    width: 60em;
+    border-radius: 2em 2em 2em 2em;
+    background-color: gray;
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center; 
+}
+
+#console{                                 /*********************NO TOCAR********************/
+    height: 28em;
+    width: 58em;
+    border-radius: 2em 2em 2em 2em;
+    background-color: black;   
+
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+
+.file {  /*Establecemos las columnas verticales*/
+    height: 28em;
+    width: 19.3em;
+    display: flex;
+    flex-direction: row;
+}
+
+    .file1{            /****************FILA IZQUIERDA***************/  /********FUNCIONA***********/
+        /* background-color: blue;  */
+    }
+
+    .file2{              /*********************fila central**************/ /**********FUNCIONA************/
+         background-color: red;   
+        flex-direction: column;      
+    }
+
+    .file3{
+        /* background-color: green; */
+        flex-direction: column;    
+    }
+
+
+.rank {  /*Establecemos las filas horizontales*/
+    height: 14em;
+    width: 19.3em;
+    flex-direction: column;
+}
+
+.rank1 {
+    height: 14em;
+    width: 19.3em;
+    /* background-color: yellow; */
+}
+
+.rank2 {
+    height: 14em;
+    width: 19.3em;
+    /* background-color: magenta; */
+}
+
+/*ID*/
+
+#buttons-left{  /* Set the cross command*/        /*********************NO TOCAR********************/
+
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+    
+    color: black;
+    content: "+";
+    font-size: 180px;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+}
+
+#middle{               /*********************NO TOCAR********************/
+	height: 4em;
+    width: 12em;
+    margin-top: 6em;
+    margin-left: 3em;    
+    background-color: white;
+    border-radius: 25%;
+
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center; 	
+    flex-direction: row;
+}
+
+#selectDash{              /*********************NO TOCAR********************/
+    height: 1.5em;
+    width: 5em;
+    margin-right: 0.5em;
+    background-color: black;
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+    
+}
+
+#startDash{                  /*********************NO TOCAR********************/
+    height: 1.5em;
+    width: 5em;
+    margin-left: 0.5em;
+    background-color: black;
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%; 
+}
+
+#nintendo{      /******************NO TOCAR**************/ /************FUNCIONA************/
+    font-family: 'Ubuntu' !important;
+    color: Red;  
+    
+    font-size: 3em;
+    font-weight: bold;
+
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+}
+
+#ab{            /******************NO TOCAR**************/ /************FUNCIONA************/
+    height: 14em ;
+    width: 24em;
+    /* background-color: yellow;  */
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#a {                              /**********left square white*************/      /******************NO TOCAR**************/ /************FUNCIONA************/
+    height: 5em;
+    width: 5em;
+    background-color: white;
+    margin-left: 2em;
+    margin-top: 2em; 
+    margin-right: 0.5em;    
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+
+}
+#b {                                /**********right square white*************/  /******************NO TOCAR**************/ /************FUNCIONA************/
+    height: 5em;
+    width: 5em;
+    background-color: white;
+    margin-right: 2em;
+    margin-top: 2em;   
+    margin-right: 0.5em;    
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#aCircle {             /******************NO TOCAR**************/ /************FUNCIONA************/
+    height: 4.5em;
+    width: 4.5em;
+    border-radius: 50%;
+    background-color: red;
+ 
+    margin-left: 0.5em;
+    margin-right: 0.5em;    
+
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+}
+#bCircle {                  /******************NO TOCAR**************/ /************FUNCIONA************/
+    height: 4.5em;
+    width: 4.5em;
+    border-radius: 50%;
+    background-color: red;
+ 
+    margin-left: 0.5em;
+    margin-right: 0.5em;    
+
+    display: flex;  /*Set centered elements*/
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* #aLet {
+    color: Red;      
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 4em;
+    margin-left: 2em;
+
+    height: 5em;
+    width: 5em;
+    
+    margin-left: 2em;
+    margin-right: 5em;    
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+#bLet {
+    color: Red;      
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 5em;
+    margin-right: 2em;
+
+    display: flex;  
+    align-items: center;
+    justify-content: center;  
+   
+} */
